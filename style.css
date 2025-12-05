@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #fff9f4;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+body{
+        background-color: #E5E5E5;
+    font-family: Roboto;
+}
+@font-face{
+    font-family: "Roboto";
+    src:url("./fonts/Roboto-VariableFont_wdth\,wght.ttf");
+}
+.logo { 
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width:50%;
+
+}
+.logo span{
+    width: 100px;
+    font-family: Roboto;
+}
+.nike{
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+}
+.colornike{
+    color: #ff8367;;
+}
+.navlinks ul{
+    display: flex;
+    gap: 50px;
+}
+.navlinks li{
+    list-style: none;
+}
+.navlinks li a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Roboto;
+}
+.backdiv{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
+.shoeimg img{
+    height: 500px;
+}
+.content{
+    padding-top: 170px;
+    font-weight: 900;
+    font-size: x-large;
+}
+.content span{
+    color: #ff8367;
+}
+.content button {
+color: white;
+background-color: blue;
+border-radius: 5px;
+padding: 5px;
+width: 100px;
+height: 40px;
+border: none;
+}
+.upperdiv{
+    background-color: black;
+    border-radius: 30px;
+}
+.divsection h3{
+    color: #363958;
+    padding-left: 50px;
+    font-size: 50px;
+    justify-content: center;
+}
+.shoe1 img{
+    background: #F1F1F1;
+    height: 330px;
+    width: 280px;
+}
+.backportion{
+    background-color:white;
+    padding: 30px;
+    height: 470px;
+    width: 280px;
+    border-radius: 30px;
+    justify-content: center;}
+    .cart{
+        display: flex;
+       gap: 130px;
+       color: #ff8367;
+       justify-content: center;
+       text-align: center;
+
+    }
+    .cart h3{
+        padding-top: 10px;
+        font-size: larger;
+    }
+    .cart button{
+        color: white;
+        background-color: blue;
+        border-radius: 5px;
+        padding: 5px;
+        width: 100px;
+        height: 40px;
+        border: none;
+    }
+    .divlast{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .backportion h1{
+        font-size: large;
+        font-weight: bold;
+    }
+    .shoppingsection{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .bigimg img{
+        height: 200px;
+        width: 350px;
+    }
+    .div1{
+        display: flex;
+        margin: 10px;
+        padding-top: 20px;
+    }
+    .div1 img{
+        width: 100px;
+        height: 100px;
+        padding-right: 5px;
+    }
+    .divflex{
+        display: block;
+    }
+    .showinline{
+        display: flex;
+        display: block;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .subscribesection{
+        padding-top: 50px;
+        margin: 30px;
+        margin-left: 150px;
+        width: 900px;
+        height: 200px;
+        background-color: #fff;
+        justify-content: center;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .input{
+        width: 700px;
+        height: 50px;
+        display: flex;
+        margin: 70px;
+        padding-left: 50px;
+    }
+    .input input{
+        height: 100%;
+        width: 100%;
+        border-color: black;
+    }
+    .input button{
+        color: white;
+            background-color: blue;
+                        height: 54px;
+            padding: 5px;
+            border: none;
+    }
+    .lastsection{
+        background-color:#f8f9fa;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        /* margin: 20px; */
+        padding: 50px;
+    }
+    .lastsection li{
+        list-style: none;
+        padding: 5px;
+    }
+    .lastone{
+        background-color:#f8f9fa;
+        text-align: center;
+        font-weight: bold;
+    }
+    @media (max-width: 480px) {
+        header{
+            width: 100%;
+        }
+        .navlinks li{
+            display:none;
+        }
+        .navlinks{
+            display: 100%;
+            width: 100%;
+
+        }
+        .backdiv{
+            flex-wrap: wrap;
+        }
+
+    }
